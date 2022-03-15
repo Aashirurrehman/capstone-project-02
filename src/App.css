@@ -1,4 +1,13 @@
-.logo{
-  height: 95px;
-  
+.app{
+    min-height: 100vh;
+    color: white;
+    padding-top: 130px;
+    background-color: maroon;
+    padding-bottom: 70px;
+}
+
+@media (max-width: 700px){
+    .app{
+        padding-top: 70px;
+    }
 }
